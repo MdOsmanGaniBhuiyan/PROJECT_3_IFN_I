@@ -1,0 +1,88 @@
+# Python environments
+.venv/
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Raw single-cell data
+data/
+
+# Large AnnData objects
+results/*.h5ad
+results/**/*.h5ad
+
+# Large/intermediate bioinformatics files
+*.mtx
+*.mtx.gz
+*.h5
+*.hdf5
+*.loom
+
+# Sequencing files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Keep lightweight result tables
+!results/*.csv
+!results/gsea/*.csv
+!results/gsea/*.rnk
+
+# Keep final figures
+!figures/
+!figures/final/
+!figures/final/**/*.png
+!figures/final/**/*.pdf
+
+# Working/generated figures
+figures/FIGURE_ORGANIZATION_PREVIEW.png
+figures/highly_variable_genes.png
+figures/irc_score_by_cell_type.png
+figures/marker_dotplot.png
+figures/pca_variance_ratio.png
+figures/qc_violin_before_filtering.png
+figures/tcell_irc_score_by_subtype.png
+figures/umap_annotated_cell_types.png
+figures/umap_by_sample.png
+figures/umap_irc_score.png
+figures/umap_irc_status.png
+figures/umap_leiden_clusters.png
+figures/umap_tcell_irc_status.png
+
+# Keep only the official final report
+docs/FINAL_REPORT_DRAFT.docx
+docs/PROJECT_3_IFN_I_FINAL_REPORT_DRAFT.docx
+docs/PROJECT_3_IFN_I_FINAL_REPORT_PROOFREAD.docx
+docs/PROJECT_3_IFN_I_FINAL_REPORT_SUBMISSION_READY.docx
+
+# Generated duplicate GSEA PDF reports
+results/gsea/hallmark/prerank/
+results/gsea/hallmark/gseapy.gene_set.prerank.report.csv
+
+# Generated GSEA logs / temporary outputs
+results/gsea/logs/

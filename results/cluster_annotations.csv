@@ -1,0 +1,33 @@
+leiden,cell_type,annotation_confidence
+0,Naive/resting T cell,High
+1,Myeloid,High
+2,Myeloid/APC,High
+3,Myeloid/APC,High
+4,Myeloid,High
+5,Myeloid/APC,High
+6,Myeloid/APC,High
+7,Mixed/uncertain,Low
+8,Myeloid/T-cell mixed,Low
+9,Activated myeloid/APC,Moderate
+10,Activated myeloid/APC,Moderate
+11,Monocyte/myeloid,High
+12,Activated myeloid/APC,Moderate
+13,Cytotoxic T/NK,High
+14,Myeloid/APC,Moderate
+15,Cytotoxic NK/T,High
+16,Naive/memory T cell,High
+17,Unclear/rare,Low
+18,B cell,Moderate
+19,B cell,High
+20,Treg-like/activated CD4 T cell,Moderate
+21,Activated/inflammatory myeloid,Moderate
+22,Memory CD4/GZMK T cell,High
+23,B cell,High
+24,Dendritic/APC,Moderate
+25,NK cell,High
+26,B cell,High
+27,Platelet,High
+28,pDC-like,Moderate
+29,Cycling/proliferating,High
+30,Unclear/rare,Low
+31,IFN-stimulated myeloid,Moderate

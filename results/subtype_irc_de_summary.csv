@@ -1,0 +1,7 @@
+subtype,IRC_High_cells,IRC_Low_cells,significant_genes,higher_in_IRC_High,higher_in_IRC_Low,significant_IRC_genes,IRC_genes_higher_in_High
+Naive/resting T cell,4468,4637,361,202,159,6,6
+Naive/memory T cell,968,1167,4,4,0,4,4
+Memory CD4/GZMK T cell,716,641,4,4,0,4,4
+Treg-like/activated CD4 T cell,816,1010,14,11,3,4,4
+Cytotoxic T/NK,1755,1446,16,16,0,4,4
+Cytotoxic NK/T,1435,1256,4,4,0,4,4
